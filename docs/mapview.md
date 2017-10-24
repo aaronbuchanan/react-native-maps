@@ -63,6 +63,7 @@ To access event data, you will need to use `e.nativeEvent`. For example, `onPres
 | Method Name | Arguments | Notes
 |---|---|---|
 | `animateToRegion` | `region: Region`, `duration: Number` |
+| `setMapBoundaries` | `northEast: LatLng`, `southWest: LatLng` | `GoogleMaps only`
 | `animateToCoordinate` | `coordinate: LatLng`, `duration: Number` |
 | `animateToBearing` | `bearing: Number`, `duration: Number` |
 | `animateToViewingAngle` | `angle: Number`, `duration: Number` |
